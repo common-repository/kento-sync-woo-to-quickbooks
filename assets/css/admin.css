@@ -1,0 +1,228 @@
+.order-status{display:-webkit-inline-box;display:inline-flex;line-height:1.3rem;color:#777;background:#e5e5e5;border-radius:4px;border-bottom:1px solid rgba(0,0,0,.05);margin:-.25em 0;cursor:inherit!important;white-space:nowrap;max-width:100%}
+.order-status.status-completed{background:#c8d7e1;color:#2e4453}
+.order-status.status-on-hold{background:#f8dda7;color:#94660c}
+.order-status.status-failed{background:#eba3a3;color:#761919}
+.order-status.status-processing{background:#c6e1c6;color:#5b841b}
+.order-status.status-trash{background:#eba3a3;color:#761919}
+.order-status>span{margin:0 1em;overflow:hidden;text-overflow:ellipsis}
+#post-body.columns-2 { display: block; width: 100%;}
+.card {
+    margin-bottom: 30px;
+    border: 0;
+    box-shadow: 0 0 2rem 0 rgba(136,152,170,.15);
+    max-width: none;
+}
+#custom-quick-books-table .wp-list-table {
+    margin-bottom: 1.25rem;
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+    clear: both;
+    margin-top: 6px;
+    max-width: none ;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    color: #525f7f;
+    background-color: transparent;
+}
+#custom-quick-books-table .wp-list-table thead th.manage-column, #custom-quick-books-table .wp-list-table thead td.manage-column {
+    color: #8898aa;
+    background-color: #f6f9fc;
+    font-size: .65rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e9ecef;
+    padding: 1.25rem 1.5rem;
+}
+#custom-quick-books-table .wp-list-table tbody td, #custom-quick-books-table .wp-list-table tbody th {
+    font-size: .8125rem;
+    white-space: nowrap;
+    border-top: 1px solid #e9ecef;
+    padding: 1rem 1.5rem;
+}
+#custom-quick-books-table .wp-list-table thead th a { padding: 0;}
+#custom-quick-books-table tfoot {display: none;}
+#custom-quick-books-table #search-submit, #custom-quick-books-table .btn.btn-info, .manual-col .btn.btn-info{
+    color: #fff;
+    border-color: #5e72e4;
+    background-color: #5e72e4;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+#custom-quick-books-table .tablenav.top { display: none;}
+#custom-quick-books-table p.search-box{ margin: 20px 0;}
+.tablenav-pages, .pagination-links {
+    align-items: center;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .375rem;
+    margin-bottom: 0!important;
+}
+#custom-quick-books-table .tablenav-pages .pagination-links .button {
+    color: #8898aa;
+    background-color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    width: 36px;
+    height: 36px;
+    margin: 0 3px;
+    padding: 0;
+    border-radius: 50%!important;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    line-height: normal;
+    border: 1px solid #dee2e6;
+}
+#custom-quick-books-table .tablenav-pages .pagination-links a.button:hover {
+    z-index: 3;
+    color: #fff;
+    border-color: #5e72e4;
+    background-color: #5e72e4;
+}
+#custom-quick-books-table .tablenav-pages .pagination-links a.button:focus {
+    box-shadow: none;
+}
+#custom-quick-books-table .tablenav.bottom { height: auto;}
+#custom-quick-books-table .wc-pagination, #custom-quick-books-table .wc-pagination-links {
+    align-items: center;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .375rem;
+    margin-bottom: 0!important;
+    float: right;
+}
+#custom-quick-books-table .wc-pagination-links .page-numbers {
+    color: #8898aa;
+    background-color: #fff;
+    font-size: 0.875rem;
+    display: flex;
+    width: 36px;
+    height: 36px;
+    margin: 0 3px;
+    padding: 0;
+    border-radius: 50%!important;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    line-height: normal;
+    border: 1px solid #dee2e6;
+}
+#custom-quick-books-table .wc-pagination-links .page-numbers.current {
+    z-index: 3;
+    color: #fff;
+    border-color: #5e72e4;
+    background-color: #5e72e4;
+}
+#custom-quick-books-table .wc-pagination-links .page-numbers:hover {
+    z-index: 2;
+    text-decoration: none;
+    color: #8898aa;
+    border-color: #dee2e6;
+    background-color: #dee2e6;
+}
+#custom-quick-books-table .wc-pagination-links .page-numbers:focus{
+    outline: none;
+    box-shadow: none;
+}
+.add-contact-us { margin: 20px 0; }
+#custom-quick-books-table .admin_reply { background: #e3f9e8; }
+.quickbook-overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: rgba(0,0,0,0.3) url("../img/loader.gif") center no-repeat;
+}
+/* Turn off scrollbar when body element has the loading class */
+body.quickbook-loading{
+    overflow: hidden;   
+}
+/* Make spinner image visible when body element has the loading class */
+body.quickbook-loading .quickbook-overlay{
+    display: block;
+}
+table.wp-list-table mark.instock,table.wp-list-table mark.onbackorder,table.wp-list-table mark.outofstock{font-weight:700;background:transparent none;line-height:1}table.wp-list-table mark.instock{color:#7ad03a}table.wp-list-table mark.outofstock{color:#a44}table.wp-list-table mark.onbackorder{color:#eaa600}
+/* Set a style for all buttons */
+button.confirmation-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    float: left;
+    width: 50%;
+}
+button.confirmation-btn:hover {
+    opacity:1;
+}
+button.confirmation-cancel {
+    background-color: #ccc;
+    color: black;
+}
+button.confirmation-submit {
+    background-color: #f44336;
+}
+#confirmation-alert .confirm-container, #wpbody-content .modal .confirm-container {
+    padding: 16px;
+    text-align: center;
+}
+.confirm-container h1 {
+    max-width: 90%;
+    font-size: 1.7rem;
+}
+#confirmation-alert.modal, #wpbody-content .modal {
+    display: none;
+    position: fixed;
+    z-index: 9998;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 50px;
+}
+#confirmation-alert .modal-content, #wpbody-content .modal .modal-content{
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 100%;
+    position: relative;
+    /* max-width: 520px; */
+}
+#confirmation-alert span.close, #wpbody-content .modal span.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #5c5c5c;
+}
+#confirmation-alert span.close:hover,
+#confirmation-alert span.close:focus,
+#wpbody-content .modal span.close:hover,
+#wpbody-content .modal span.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+@media screen and (max-width: 300px) {
+    #confirmation-alert button.confirmation-btn {
+       width: 100%;
+    }
+}
+.wp-core-ui #custom-quick-books-table label {
+    margin-bottom: 0;
+}
+.wp-core-ui #custom-quick-books-table select {
+    display: inline-block;
+    width: auto;
+    min-width: 120px;
+}
+.disable-plan-error { text-transform: initial; padding: 2px 5px; text-decoration: underline; font-size: 20px;}

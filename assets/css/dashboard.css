@@ -1,0 +1,70 @@
+.card {
+    margin-bottom: 30px;
+    border: 0;
+    box-shadow: 0 0 2rem 0 rgba(136,152,170,.15);
+    padding: 0;
+    max-width: none;
+}
+.bg-gradient-info {
+    background: linear-gradient(87deg,#11cdef 0,#1171ef 100%);
+}
+.bg-gradient-primary {
+    background: linear-gradient(87deg,#5e72e4 0,#825EAC 100%);
+}
+.bg-gradient-danger {
+    background: linear-gradient(87deg,#f5365c 0,#f56036 100%);
+}
+.bg-gradient-success {
+    background: linear-gradient(87deg,#2dce89 0,#2dcecc 100%);
+}
+.border-0 {
+    border: 0!important;
+}
+.card-body {
+    min-height: 1px;
+    padding: 1rem 1.5rem;
+    flex: 1 1 auto;
+}
+.card-body .col hr {margin: 2px 0;}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.font-weight-bold {
+    font-weight: 600;
+}
+.text-white{color:#fff!important}.text-primary{color:#5e72e4!important}a.text-primary:focus,a.text-primary:hover{color:#233dd2!important}.text-secondary{color:#f7fafc!important}a.text-secondary:focus,a.text-secondary:hover{color:#bfd7e7!important}.text-success{color:#2dce89!important}a.text-success:focus,a.text-success:hover{color:#1f8f5f!important}.text-info{color:#11cdef!important}a.text-info:focus,a.text-info:hover{color:#0b90a8!important}.text-warning{color:#fb6340!important}a.text-warning:focus,a.text-warning:hover{color:#ea3005!important}.text-danger{color:#f5365c!important}a.text-danger:focus,a.text-danger:hover{color:#d40b33!important}.text-light{color:#adb5bd!important}a.text-light:focus,a.text-light:hover{color:#838f9b!important}.text-dark{color:#212529!important}a.text-dark:focus,a.text-dark:hover{color:#000!important}.text-default{color:#172b4d!important}a.text-default:focus,a.text-default:hover{color:#050a12!important}.text-white{color:#fff!important}a.text-white:focus,a.text-white:hover{color:#d9d9d9!important}.text-neutral{color:#fff!important}a.text-neutral:focus,a.text-neutral:hover{color:#d9d9d9!important}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
+    font-family:inherit;
+    font-weight:500;
+    line-height:1.5;
+    margin-bottom:.5rem;
+    color:#32325d
+}
+@media (max-width:1200px){
+    .h1{font-size:calc(1.2875rem + .45vw)}}
+    
+    .h2{font-size:1.25rem}
+    .h3{font-size:1.0625rem}
+    .h4{font-size:.9375rem}
+    .h5{font-size:.8125rem}
+    .h6{font-size:.625rem}
+.chart-body {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#columnchart_material { width:100%;}
+.card-header {
+    margin-bottom: 0;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    background-color: #fff;
+}
+.card .btn-warning {
+    background-color:#f4a100
+}
+.success-sync-text {padding: 10px;}
+.change-plan-text {margin-bottom: 0;}
+body .modal-backdrop.show{
+    opacity: 0.1;
+}
